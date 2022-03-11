@@ -1,8 +1,19 @@
 import React from 'react'
+import { InnerLayout, MainLayout } from '../styles/Layout'
+import Title from '../Components/Title'
+import Detail from '../Components/Detail'
 
 const DetailPage = () => {
   return (
-    <div>DetailPage</div>
+    <>
+    <MainLayout>
+            <Title title={'Detail'} span={'Detail'}/>
+              <InnerLayout>
+                  <Detail/>
+                </InnerLayout>
+             
+    </MainLayout>
+    </>
   )
 }
 
