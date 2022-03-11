@@ -34,7 +34,7 @@ const Navigation = () => {
 
            </ul>
            <footer className="footer">
-              <p>@2022 Thanaboon.</p>    
+              <p>@2022 Thanaboon Portfolio.</p>    
            </footer>
         </NavigationStyled>
     )
