@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <HomePageStyled>
       <div className='typography'>
-          
+          <h1>Hi I'm <span className='reveal-text'>Thanaboon Luekajornsak</span></h1>
           <div className='icons'>
           <div className='icon i-facebook' ><a  href='https://www.facebook.com/profile.php?id=100003402333760'><FacebookIcon/></a></div>
           <div className='icon i-github'><a  href='https://github.com/Thanaboonchamp'><GitHubIcon/></a></div>
