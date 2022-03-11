@@ -1,20 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
-import Navigation from './Navigation';
+import Navigation from './Navigation'
 
 const Sidebar = () => {
   return (
     <SidebarStyled>
-        < Navigation />
+        <Navigation />
     </SidebarStyled>
   )
 }
 
-const SidebarStyled = styled.div `
+const SidebarStyled = styled.div`
     width: 16.3rem;
-    height: 100vh;
+    height :100vh;
     background-color: var(--sidebar-dark-color);
-    posttion: fixed;
+    position: fixed;
 `;
 
 export default Sidebar

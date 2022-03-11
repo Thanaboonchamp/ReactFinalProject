@@ -25,11 +25,31 @@ const GlobalStyled = createGlobalStyle`
           box-sizing: border-box;
           font-size: 1.2rem;
           list-style: none;
-          text-style: none;
+          text-decoration: none;
+          font-family: 'Patrick Hand', cursive;
       }
       body{
           background-color: var(--background-dark-color);
+          color: var(--font-light-color);
       }
+      
+      a{
+          font-family: inherit;
+          color: inherit;
+          font-siez: inherit;
+      }
+
+      h1{
+        font-size: 3rem;
+        color: var(--white-color)
+        span{
+            font-size: 3rem;
+        }
+    }
+ 
+    span{
+        color: var(--primary-color);
+    }
 `;
 
 export default GlobalStyled;
