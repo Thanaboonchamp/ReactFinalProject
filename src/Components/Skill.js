@@ -11,7 +11,11 @@ function Skills() {
                 <Title title={'My Skills'}  />
                 <InnerLayout>
                     <div className="skills">
-                       
+                        <ProgressBar 
+                            title={'HTML5'}
+                            width={'60%'}
+                            text={'60%'}
+                        /> 
                         
                         <ProgressBar 
                             title={'React JS'}
