@@ -20,9 +20,10 @@ function Resume() {
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
-                        year={'2013-2015'} 
-                        title={'Junior High School'}
-                        subTitle={'lasalle bangkok'}
+                        year={'2019-Present'} 
+                        title={'Bachelor'}
+                        subTitle={'Thai-Nichi Institue of Technology'}
+                        text={'Faculty of Information Technology '}
                     />
                     <ResumeItem 
                         year={'2016-2018'} 
@@ -31,10 +32,9 @@ function Resume() {
                         text={'Scine-Math'} 
                     />
                     <ResumeItem 
-                        year={'2019-2022'} 
-                        title={'Bachelor'}
-                        subTitle={'Thai-Nichi Institue of Technology'}
-                        text={'Faculty of Information Technology '}
+                       year={'2013-2015'} 
+                       title={'Junior High School'}
+                       subTitle={'lasalle bangkok'}
                     />
                 </div>
             </InnerLayout>
