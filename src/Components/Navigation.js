@@ -36,7 +36,7 @@ const Navigation = () => {
             
         </ul>
         <footer className='footer'>
-            <p>Portfolio@2022 Passawee Wanwilai</p>
+            <p>Portfolio@2022 Thanaboon Portfolio</p>
         </footer>
     </NavigationStyled>
   )
